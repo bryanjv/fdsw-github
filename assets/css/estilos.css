@@ -5,10 +5,20 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg-hero.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+.highlighted-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad del 50% */
+  color: white; /* Color del texto blanco */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+  max-width: 600px; /* Ancho máximo del párrafo */
+  margin: 20px auto; /* Centrar el párrafo horizontalmente */
 }
 
 /* Mis trabajos */
